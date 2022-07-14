@@ -8,6 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* navbar section */
 #nav_bar {
     position: sticky;
     top: 0;
@@ -16,7 +17,6 @@ html {
 
 .navbar {
     background-color: white;
-
 }
 
 .navbar a {
@@ -25,6 +25,7 @@ html {
 
 .navbar-brand {
     background-color: brown;
+
     border-radius: 50%;
     font-weight: 600;
     font-size: 30px;
@@ -42,29 +43,21 @@ html {
     font-weight: bold;
     text-align: right;
     transition: 0.2s;
-
-
 }
-
 
 .navbar-nav li a:hover {
-    color: rgb(71, 8, 8) !important;
+    color: rgb(80, 4, 4) !important;
     z-index: 2px;
-
-
 }
+/* end of navbar */
 
-
-
-
-/* banner section */
-
+/* home section */
 #home {
     padding: 15px 0;
     background-color: white;
 }
 
-#nice {
+#home_heading {
     font-size: 25px;
     color: brown;
     font-weight: 600;
@@ -72,7 +65,7 @@ html {
     padding-top: 20%;
 }
 
-#para {
+#home_paragraph {
     padding-top: 10px;
     opacity: 70%;
     max-width: 100%;
@@ -95,46 +88,37 @@ html {
     border: none;
     margin-bottom: 50px;
     margin-top: 20px;
-
-
 }
 
-/* sectoin2 */
-
-#explore {
+#number_count {
     background-color: brown;
     width: 100%;
     max-width: 100%;
-
 }
 
 .counter {
     padding: 35px 10px;
     color: white;
-    font-size:25px ;
-   
-    
-    
-
+    font-size: 25px;
 }
 
-#para2 {
+#number_count_paragraph {
     color: white;
     font-size: 20px;
-    line-height:15px ;
+    line-height: 15px;
+    font-weight: bold;
 }
+/* end of home section */
 
-
-/* section foods */
-
-#foods {
+/* about section  */
+#about {
     background-color: whitesmoke;
     width: 100%;
     max-width: 100%;
     padding: 30px;
 }
 
-#about_us {
+#about_title {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -150,9 +134,7 @@ html {
     padding-top: 13%;
 }
 
-
-
-#first_come {
+#about_heading {
     padding-top: 20%;
     font-size: 25px;
     color: brown;
@@ -160,15 +142,15 @@ html {
     text-transform: capitalize;
 }
 
-#para3 {
+#about_paragraph {
     opacity: 70%;
 }
 
-#foods li {
+#about li {
     padding: 0px 12px;
 }
 
-#foods li a {
+#about li a {
     text-decoration: none;
 
     color: lightslategray;
@@ -182,14 +164,13 @@ html {
     margin-bottom: 60px;
 }
 
-/* section  review */
-#preview {
+#about_preview {
     background-color: white;
     width: 100%;
     max-width: 100%;
 }
 
-#title {
+#about_preview_heading {
     padding-top: 16%;
     font-size: 25px;
     color: brown;
@@ -197,20 +178,21 @@ html {
     text-transform: capitalize;
 }
 
-#img4 {
-    width: 600px;
-    max-width: 100%;
-}
-
-#para5 {
+#about_preview_paragraph {
     opacity: 70%;
 }
 
+#chicken {
+    width: 600px;
+    max-width: 100%;
+}
+/* end of about us */
+
+/* explore food section */
 #explore_food {
     background-color: whitesmoke;
     width: 100%;
     max-width: 100%;
-
 }
 
 #explore_food .card {
@@ -219,19 +201,20 @@ html {
     margin: auto;
 }
 
-#title2 {
+#explore_food_heading {
     padding-top: 12%;
     font-size: 25px;
     color: brown;
     font-weight: 600;
     text-transform: capitalize;
-
 }
 
+#explore_food_paragragh {
+    opacity: 70%;
+}
+/* end of explore food section */
 
-
-/* testimonies sections */
-
+/* review sections */
 #testimonies {
     background-color: brown;
     padding: 35px 0 20px;
@@ -239,7 +222,20 @@ html {
     max-width: 100%;
 }
 
-#person {
+#testimonies-heading {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#person2 {
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 5%;
+}
+
+#person1 {
     width: 120px;
     margin: auto;
     border-radius: 50%;
@@ -252,14 +248,9 @@ html {
     font-weight: bold;
     text-transform: uppercase;
 }
+/* end of review */
 
-#customer {
-    color: white;
-    text-transform: capitalize;
-    font-weight: bold;
-}
-
-/* faq section */
+/* FAQ section */
 #questions {
     background-color: white;
     padding: 35px 0 20px;
@@ -267,7 +258,7 @@ html {
     max-width: 100%;
 }
 
-#title4 {
+#questions #heading {
     padding-top: 10%;
     font-size: 25px;
     color: brown;
@@ -276,32 +267,28 @@ html {
     text-align: center;
 }
 
-#title6 {
+#questions-title {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     padding-top: 12px;
     max-width: 100%;
 }
-
-
-
-
+/* end of FAQ */
 
 /* subcribe */
+#subcribe {
+    background-color: whitesmoke;
+    padding: 35px;
+}
 
-#title5 {
+#subcribe-title {
     padding-top: 10%;
     font-size: 25px;
     color: brown;
     font-weight: 600;
     text-transform: capitalize;
     text-align: center;
-}
-
-#subcribe {
-    background-color: whitesmoke;
-    padding: 35px;
 }
 
 #form-control {
@@ -310,16 +297,14 @@ html {
     padding: 10px;
     max-width: 250px;
     margin-top: 30px;
-
-
 }
 
-#str {
+#strong {
     color: brown;
     font-weight: 600;
 }
 
-.btn8 {
+.subcribe-btn {
     margin-top: 30px;
     background-color: brown;
     border: none;
@@ -328,8 +313,6 @@ html {
     max-width: 250px;
     border-radius: 5px;
     margin-bottom: 50px;
-
-
 }
 
 /* footer */
@@ -365,6 +348,5 @@ html {
     width: 30px;
     text-align: center;
     padding-top: 5px;
-
-
 }
+/* end of footer */
